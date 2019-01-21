@@ -1,0 +1,14 @@
+[all]
+gfs_node1 ansible_host=39.96.212.11 disk_volume_device_1=/dev/vdb ip=172.17.119.105 #ansible_user=root ansible_ssh_pass=12345678 ansible_become=true
+gfs_node2 ansible_host=39.96.206.60 disk_volume_device_1=/dev/vdb ip=172.17.119.102 #ansible_user=root ansible_ssh_pass=12345678 ansible_become=true
+gfs_node3 ansible_host=39.96.210.106 disk_volume_device_1=/dev/vdb ip=172.17.119.104 #ansible_user=root ansible_ssh_pass=12345678 ansible_become=true
+gfs_node4 ansible_host=39.96.207.215 disk_volume_device_1=/dev/vdb ip=172.17.119.103 #ansible_user=root ansible_ssh_pass=12345678 ansible_become=true
+
+
+[gfscluster]
+gfs_node1
+gfs_node2
+gfs_node3
+
+[rainbondcluster]
+gfs_node4

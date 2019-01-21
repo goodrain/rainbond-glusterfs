@@ -4,7 +4,7 @@ metadata:
   name: glusterfs 
 spec:
   capacity:
-      storage: "{{ hostvars[groups['gfs-cluster'][0]].gluster_disk_size_gb }}Gi"
+      storage: "{{ hostvars[groups['gfscluster'][0]].gluster_disk_size_gb }}Gi"
   accessModes:
     - ReadWriteMany
   glusterfs:

@@ -10,4 +10,4 @@
 
 ## 参考项目
 
-[https://github.com/kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)
+[kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)

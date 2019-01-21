@@ -34,11 +34,11 @@
 # kube-node
 # kube-master
 
-# [gfs-cluster]
+# [gfscluster]
 # gfs_node1
 # gfs_node2
 # gfs_node3
 
 # [network-storage:children]
-# gfs-cluster
+# gfscluster
 

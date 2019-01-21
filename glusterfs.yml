@@ -1,5 +1,5 @@
 ---
-- hosts: gfs-cluster
+- hosts: gfscluster
   gather_facts: false
   vars:
     ansible_ssh_pipelining: false
@@ -9,17 +9,13 @@
 - hosts: all
   gather_facts: true
 
-- hosts: gfs-cluster
+- hosts: gfscluster
   vars:
     ansible_ssh_pipelining: true
   roles:
     - { role: glusterfs/server }
 
-- hosts: k8s-cluster
+- hosts: rainbondcluster
   roles:
     - { role: glusterfs/client }
-
-- hosts: kube-master[0]
-  roles:
-    - { role: kubernetes-pv }
 
