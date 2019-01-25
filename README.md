@@ -8,6 +8,7 @@
 - `Ubuntu` 16.04,18.04
 - `CentOS/RHEL` 7
 
-## 参考项目
+## 推荐参考如下项目
 
-[kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)
+- [gluster/gdeploy](https://github.com/gluster/gdeploy) 官方部署ansible
+- [kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray) kubernetes部署ansible
